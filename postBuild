@@ -1,3 +1,8 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 #jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38
+git clone https://github.com/cerfacs-globc/icclim.git
+cd icclim
+gcc -fPIC -g -c -Wall ./icclim/libC.c -o ./icclim/libC.o
+gcc -shared -o ./icclim/libC.so ./icclim/libC.o
+python setup.py install
