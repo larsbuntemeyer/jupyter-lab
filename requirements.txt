@@ -6,3 +6,4 @@ netCDF4
 pyngl
 xarray
 cartopy
+netcdftime
