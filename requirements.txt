@@ -5,3 +5,4 @@ jupyter_contrib_nbextensions
 netCDF4
 pyngl
 xarray
+cartopy
