@@ -1,9 +1,14 @@
-numpy
-matplotlib
-ipywidgets
-jupyter_contrib_nbextensions
-netCDF4
-pyngl
-xarray
-cartopy
-netcdftime
+name: jupyter-lab-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - ipywidgets
+  - jupyter_contrib_nbextensions
+  - netCDF4
+  - pyngl
+  - xarray
+  - cartopy
+  - netcdftime
